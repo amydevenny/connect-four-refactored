@@ -1,0 +1,26 @@
+<!doctype html>
+<head>
+  <title>Connect Four</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
+  <link href="connect4.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Connect Four</h1>
+  <h3>Please choose your colors:</h3>
+  <form id="colors">
+    <label for="player1-color">Player 1 Color</label>
+    <input type="color" id="player1-color" name="player1-color">
+    <label for="player1-color">Player 2 Color</label>
+    <input type="color" id="player2-color" name="player2-color">
+  </form><!-- end colors form -->
+  <button id="start">Start Game</button>
+  <div id="game">
+    <table id="board"></table>
+  </div><!-- end game div -->
+
+<script src="connect4.js"></script>
+
+</body>
+</html>
